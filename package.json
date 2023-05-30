@@ -1,0 +1,19 @@
+{
+  "name": "yeoul-readwise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sckimynwa/yeoul-readwise.git",
+  "author": "sckimynwa <tsb03672@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist && webpack --mode=production && cp ./manifest.json ./dist/manifest.json"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.237",
+    "html-webpack-plugin": "^5.5.1",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
